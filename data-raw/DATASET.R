@@ -18,3 +18,7 @@ class(crit2) <- c("list", "crit")
 # ... ---------------------------------------------------------------------
 
 usethis::use_data(crit2, overwrite = TRUE , compress = "xz")
+
+pkg_radf_crit
+radf_crit
+
