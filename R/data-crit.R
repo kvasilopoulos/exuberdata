@@ -16,9 +16,11 @@
 #'
 #' }
 #' @source simulated from exuber package function \code{\link[=mc_cv]{mc_cv()}}
+#' 
+#' @name radf_crit
 #'
 #' @examples
 #' \dontrun{
 #' all.equal(crit[[50]], mc_cv(50, seed = 123))
 #' }
-"crit"
+NULL

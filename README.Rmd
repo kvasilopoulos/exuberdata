@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# exuberdata
+
+```{bash eval=FALSE}
+git clone https://github.com/kvasilopoulos/drat.git
+git clone https://github.com/kvasilopoulos/exuberdata.git
+```
+
+* Go to exuberdata and simulate critical values. 
+* Load package and then.
+* Change version number
+
+```{r eval = FALSE}
+
+load_drat(repo = "~drat")
+```
