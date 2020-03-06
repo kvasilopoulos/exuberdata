@@ -23,4 +23,4 @@
 #' \dontrun{
 #' all.equal(crit[[50]], mc_cv(50, seed = 123))
 #' }
-NULL
+"radf_crit"
