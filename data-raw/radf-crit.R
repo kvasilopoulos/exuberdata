@@ -9,7 +9,7 @@ options("exuber.show_progress" = FALSE)
 
 nn <- 2000
 radf_crit <- list()
-for (i in 6:nn) {
+for (i in 701:nn) {
   radf_crit[[i]] <-  exuber::mc_cv(i, seed = 123)
   print(i)
 }
