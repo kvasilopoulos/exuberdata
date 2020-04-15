@@ -7,9 +7,8 @@ push_local <- function(msg = NULL) {
              credentials = git2r::cred_token(), set_upstream = TRUE)
 }
 
-load_drat <- function(repo = "../drat", msg) {
+load_drat <- function(repo = "../drat") {
   # Assure that you have update local repo b,efore pushing to drat
-  
   
   # Start Building
   pkg <- devtools::build()
