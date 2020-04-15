@@ -21,6 +21,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' all.equal(crit[[50]], mc_cv(50, seed = 123))
+#' library(exuber)
+#' all.equal(radf_crit2[[50]], exuber::mc_cv(50, nrep = 2000, seed = 123))
 #' }
-"radf_crit"
+"radf_crit2"
