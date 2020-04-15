@@ -3,7 +3,7 @@ push_local <- function(msg = NULL) {
   local_repo <- git2r::repository()
   git2r::add(local_repo, path = ".")
   git2r::commit(local_repo, message = msg)
-  git2r::push(local_repo, name = "origin",
+  git2r::push(local_repo, name = "origin", refspec = "refs/heads/master",
              credentials = git2r::cred_token(), set_upstream = TRUE)
 }
 
