@@ -3,7 +3,7 @@
 
 # exuberdata
 
-The goal of `exuberdata` is to provide critcal values for the `exuber`
+The goal of `exuberdata` is to provide critical values for the `exuber`
 package.
 
 ### Datasets
@@ -13,11 +13,11 @@ package.
 
 ## Installation
 
-Due to the large package size `exuberdata` cannot be distributed as a
+Due to its large size `exuberdata` cannot be distributed as a
 conventional CRAN package. However, there are a couple of alternatives
 for installation.
 
-First, through the [drat repo](https://github.com/kvasilopoulos/drat)
+First, through [drat](https://github.com/kvasilopoulos/drat)
 
 ``` r
 install.packages('exuberdata',repos = 'https://kvasilopoulos.github.io/drat/',type = 'source')
@@ -27,8 +27,8 @@ install.packages("exuber")
 exuber::install_exuberdata()
 ```
 
-Finally, it can be installed through [github
-repo](https://github.com/kvasilopoulos/exuberdata).
+Finally, it can be installed through
+[github](https://github.com/kvasilopoulos/exuberdata).
 
 ``` r
 install.packages("remote")
