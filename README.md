@@ -1,25 +1,36 @@
-r
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # exuberdata
 
-<!-- badges: start -->
-<!-- badges: end -->
+The goal of `exuberdata` is to provide critcal values for the `exuber`
+package.
 
-The goal of exuberdata is to ...
+### Datasets
+
+  - `radf_crit2`: Monte Carlo Critical Values for Recursive Augmented
+    Dickey Fuller models
 
 ## Installation
 
-You can install the released version of exuberdata from [CRAN](https://CRAN.R-project.org) with:
+Due to the large package size `exuberdata` cannot be distributed as a
+conventional CRAN package. However, there are a couple alternatives for
+installation.
+
+First, through the [drat repo](https://github.com/kvasilopoulos/drat)
 
 ``` r
-install.packages("exuberdata")
+install.packages('exuberdata',repos = 'https://kvasilopoulos.github.io/drat/',type = 'source')
+
+# Or, simularly through `exuber` wrapper function
+install.packages("exuber")
+exuber::install_exuberdata()
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+Finally, it can be installed through [github
+repo](https://github.com/kvasilopoulos/exuberdata).
 
 ``` r
-library(exuberdata)
-## basic example code
+install.packages("remote")
+remotes::install_github("exuberdata")
 ```
-

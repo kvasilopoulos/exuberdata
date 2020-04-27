@@ -15,16 +15,31 @@ knitr::opts_chunk$set(
 
 # exuberdata
 
-```{bash eval=FALSE}
-git clone https://github.com/kvasilopoulos/drat.git
-git clone https://github.com/kvasilopoulos/exuberdata.git
+The goal of `exuberdata` is to provide critcal values for the `exuber` package. 
+
+### Datasets
+
+* `radf_crit2`: Monte Carlo Critical Values for Recursive Augmented Dickey Fuller(`radf`) models
+
+## Installation
+
+Due to the large package size `exuberdata` cannot be distributed as a conventional 
+CRAN package. However, there are a couple alternatives for installation.
+
+First, through the [drat repo](https://github.com/kvasilopoulos/drat)
+
+```r
+install.packages('exuberdata',repos = 'https://kvasilopoulos.github.io/drat/',type = 'source')
+
+# Or, simularly through `exuber` wrapper function
+install.packages("exuber")
+exuber::install_exuberdata()
 ```
 
-* Go to exuberdata and simulate critical values. 
-* Load package and then.
-* Change version number
+Finally, it can be installed through [github repo](https://github.com/kvasilopoulos/exuberdata).
 
-```{r eval = FALSE}
-
-load_drat(repo = "~drat")
+```r
+install.packages("remote")
+remotes::install_github("exuberdata")
 ```
+
