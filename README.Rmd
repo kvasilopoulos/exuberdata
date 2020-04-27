@@ -24,7 +24,7 @@ The goal of `exuberdata` is to provide critcal values for the `exuber` package.
 ## Installation
 
 Due to the large package size `exuberdata` cannot be distributed as a conventional 
-CRAN package. However, there are a couple alternatives for installation.
+CRAN package. However, there are a couple of alternatives for installation.
 
 First, through the [drat repo](https://github.com/kvasilopoulos/drat)
 

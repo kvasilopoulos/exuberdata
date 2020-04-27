@@ -9,13 +9,13 @@ package.
 ### Datasets
 
   - `radf_crit2`: Monte Carlo Critical Values for Recursive Augmented
-    Dickey Fuller models
+    Dickey Fuller(`radf`) models
 
 ## Installation
 
 Due to the large package size `exuberdata` cannot be distributed as a
-conventional CRAN package. However, there are a couple alternatives for
-installation.
+conventional CRAN package. However, there are a couple of alternatives
+for installation.
 
 First, through the [drat repo](https://github.com/kvasilopoulos/drat)
 
