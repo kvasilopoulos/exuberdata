@@ -17,3 +17,4 @@ class(radf_crit2) <- c("crit", "list")
 # store -------------------------------------------------------------------
 
 usethis::use_data(radf_crit2, overwrite = TRUE , compress = "xz")
+
